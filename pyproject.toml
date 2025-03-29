@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyyarn"
+dynamic = ["version"]
+description = "Python library to interact with YARN API"
+authors = [{ name = "Ilsaf Khamidullin", email = "ilsaf.corp@gmail.com" }]
+license = "Apache-2.0"
+readme = "README.md"
+dependencies = [
+    "requests",
+]
+
+
+
+
+
